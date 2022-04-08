@@ -3,6 +3,10 @@
 }
 .btn-custom{
     color: #fff;
-    background-color: #e76f51;
-    border-color: #e76f51;;
+    background-color: #e76f51 !important;
+    border-color: #e76f51 !important;
+}
+
+.filter-gray{
+    filter: grayscale(100%);
 }
