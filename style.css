@@ -10,3 +10,18 @@
 .filter-gray{
     filter: grayscale(100%);
 }
+.user-image{
+    m
+    margin:40px ;
+}
+.user-content p {
+    color: #6C6C6C;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.user-content h5{
+    color: #23A6F0;
+}
+.ratings{
+    color: #E77C40;
+}
