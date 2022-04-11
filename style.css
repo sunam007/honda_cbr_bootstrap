@@ -10,10 +10,10 @@
 .filter-gray{
     filter: grayscale(100%);
 }
-.user-image{
-    m
-    margin:40px ;
-}
+/* .user-image{
+    
+    margin:auto ;
+} */
 .user-content p {
     color: #6C6C6C;
     margin-top: 5px;
