@@ -1,175 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honda - Choise of the Youth </title>
-    <!-- external css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- font awesome  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honda - No. 1 Brand</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
-    <script src="https://kit.fontawesome.com/3a5f4d9781.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3a5f4d9781.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <!-- Css style sheet -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- header section starts -->
+    <header>
+      <section
+        class="container-fluid px-3"
+        style="background-color: var(--color-0)"
+      >
+        <div class="row g-3">
+          <div
+            class="col-sm-6 d-flex flex-column justify-content-center align-items-start px-md-5 py-md-5"
+          >
+            <h6 class="text-article-font" style="color: var(--color-1)">
+              Computer-controlled digital transistorized with electronic advance
+            </h6>
+            <h1 class="section-title-font" style="color: var(--color-1)">
+              Honda CBR 300R
+            </h1>
+            <p class="text-article-font" style="color: var(--color-2)">
+              Honda cbr 150R is the finest bike of this range . the engine
+              performs very well after 6500 km . The bike has 6 speed gear box
+              which helps us to cruise at higher speed with less vibrations . It
+              can reach a speed of 140 kmph ai 11500 rpm . comfort and looks of
+              this bike are awesome .
+            </p>
+            <button
+              type="button"
+              class="btn btn-custom"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Purchase
+            </button>
 
-    <header class="container-fluid bg-custom">
-        <!-- Honda CBR 300 Section -->
-        <section class="d-sm-flex justify-content-sm-evenly align-items-sm-center p-2 ">
-
-            <div >
-                <small class="text-light">Computer-controlled digital transistorized with electronic advance</small>
-                <h2 class="text-light">Honda CBR 300</h2>
-                <p class="text-wrap text-light" style="width:350px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum accusamus, molestias hic voluptates rerum sequi voluptatum magni cupiditate eos nesciunt commodi ipsa? Quae, amet libero totam provident excepturi pariatur placeat!</p>
-                <!-- button activates modal  -->
-                
-                <button type="button" class="btn btn-danger btn-custom" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Purchase
-                </button>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Join Honda Club</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                        Flat 10% discount on every purchase above 1.5 lacs !!!
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                    </div>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Join Honda Club
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    Flat 10% discount on every purchase above 1.5 lacs !!!
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
                 </div>
-
-
-               
+              </div>
             </div>
+          </div>
 
-            <div>
-                <img class="img-fluid" src="images/header-bike.png" alt="">
-            </div>
-        </section>
-
+          <div class="col-sm-6 px-md-5 py-md-5">
+            <img class="img-fluid" src="images/header-bike.png" alt="" />
+          </div>
+        </div>
+      </section>
     </header>
+    <!-- header section ends -->
 
     <main>
-        <!-- Featured Bikes -->
-       
-        
-        
-        <section class="container">
-            <div class="text-center m-4">
-                <h1 >Fetured Bikes 2022</h1>
-                <p>Best bike collection</p>
+      <!-- featured-bike section starts-->
+
+      <section class="container my-3 py-3 text-center">
+        <h1 class="section-title-font" style="color: var(--color-3)">
+          Fetured Bikes 2021
+        </h1>
+        <p class="text-article-font" style="color: var(--color-4)">
+          Best bike collections
+        </p>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img
+              class="img-fluid filter-gray"
+              src="images/feature-bike.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid" src="images/feature-bike.jpg" alt="" />
+          </div>
+          <div class="col-md-4">
+            <img
+              class="img-fluid filter-gray"
+              src="images/feature-bike.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- feature-bike section ends-->
+
+      <!-- Clients section starts -->
+
+      <section class="container text-center my-3">
+        <h1 class="py-5 section-title-font">
+          Happy <span style="color: var(--color-4)">Client Says</span>
+        </h1>
+
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card text-center">
+              <div class="card-body" style="height: 30rem">
+                <img
+                  src="images/user-1.png"
+                  class="card-img-top w-50 py-2"
+                  alt="..."
+                />
+
+                <p
+                  class="card-text text-article-font text-muted fw-lighter py-2"
+                >
+                  It was a very lovely experience with this bike. Awesome
+                  suspension. The best thing is to ride anywhere you want.The
+                  build quality is just superb.
+                </p>
+
+                <div class="star-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <h5
+                  class="card-title text-article-font"
+                  style="color: var(--color-9)"
+                >
+                  Steven Roger
+                </h5>
+                <h6 class="text-article-font" style="color: var(--color-10)">
+                  Civil Engineer
+                </h6>
+              </div>
             </div>
-            <div class="d-flex flex-column align-items-center flex-sm-row justify-content-sm-evenly my-4">
-                <div class="mb-5">
-                    <img class="filter-gray" src="images/feature-bike.jpg" alt="">
+          </div>
+          <div class="col">
+            <div class="card text-center">
+              <div class="card-body" style="height: 30rem">
+                <img
+                  src="images/user-2.png"
+                  class="card-img-top w-50 py-2"
+                  alt="..."
+                />
+
+                <p
+                  class="card-text text-article-font text-muted fw-lighter py-2"
+                >
+                  It was a very lovely experience with this bike. Awesome
+                  suspension. The best thing is to ride anywhere you want.The
+                  build quality is just superb.
+                </p>
+
+                <div class="star-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
                 </div>
-                <div class="mb-5">
-                    <img class="" src="images/feature-bike.jpg" alt="">
-                </div>
-                <div>
-                    <img class="filter-gray" src="images/feature-bike.jpg" alt="">
-                </div>
-    
+
+                <h5
+                  class="card-title text-article-font"
+                  style="color: var(--color-9)"
+                >
+                  Black Widow
+                </h5>
+                <h6 class="text-article-font" style="color: var(--color-10)">
+                  Secret Agent
+                </h6>
+              </div>
             </div>
+          </div>
+          <div class="col">
+            <div class="card text-center">
+              <div class="card-body" style="height: 30rem">
+                <img
+                  src="images/user-3.png"
+                  class="card-img-top w-50 py-2"
+                  alt="..."
+                />
 
-        </section>
-      
+                <p
+                  class="card-text text-article-font text-muted fw-lighter py-2"
+                >
+                  It was a very lovely experience with this bike. Awesome
+                  suspension. The best thing is to ride anywhere you want.The
+                  build quality is just superb.
+                </p>
 
-        <!-- Client Review Section -->
-
-        <section class="container">
-            <h2 class="text-center">Happy <span class="text-danger">Client Says</span></h2>
-            
-            <div class="row justify-content-md-center gx-3 gy-3 mt-3 mb-3 ">
-                <!-- single Client review starts-->
-                <div class="col-md-3">
-                    <div class="card p-3 text-center">
-                        <div class="my-auto">
-                            <img class="rounded-circle" width="100" src="images/user-2.png" alt="">
-                        </div>
-                        <div class="user-content text-wrap">
-                            <p>Slate helps you see how 
-                                many more days you need 
-                                to work to reach your financial 
-                                goal for the month and year.</p>
-                                <div class="ratings">
-                                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                </div>
-
-                            <h5 class="mb-0">Regina Miles</h5> <span>Banker</span>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- single Client review ends-->
-
-                <div class="col-md-3">
-                    <div class="card p-3 text-center" .>
-                        <div class="my-auto">
-                            <img class="rounded-circle" width="100" src="images/user-2.png" alt="">
-                        </div>
-                        <div class="user-content">
-                            <p>Slate helps you see how 
-                                many more days you need 
-                                to work to reach your financial 
-                                goal for the month and year.</p>
-                                <div class="ratings">
-                                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                </div>
-
-                            <h5 class="mb-0">Regina Miles</h5> <span>Banker</span>
-                            
-                        </div>
-                    </div>
+                <div class="star-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
                 </div>
 
-                <div class="col-md-3" >
-                    <div class="card p-3 text-center" .>
-                        <div class="my-auto">
-                            <img class="rounded-circle" width="100" src="images/user-2.png" alt="">
-                        </div>
-                        <div class="user-content">
-                            <p>Slate helps you see how 
-                                many more days you need 
-                                to work to reach your financial 
-                                goal for the month and year.</p>
-                                <div class="ratings">
-                                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                                </div>
-
-                            <h5 class="mb-0">Regina Miles</h5> <span>Banker</span>
-                            
-                        </div>
-                    </div>
-                </div>
-
-
+                <h5
+                  class="card-title text-article-font"
+                  style="color: var(--color-9)"
+                >
+                  Monica Rambeau
+                </h5>
+                <h6 class="text-article-font" style="color: var(--color-10)">
+                  Project Manager
+                </h6>
+              </div>
             </div>
-            
+          </div>
+        </div>
+      </section>
 
-            
+      <!-- FAQ section starts-->
 
-        </section>
+      <section class="container my-5">
+        <h1 class="text-center section-title-font">
+          Frequently Asked <span style="color: var(--color-8)">Questions</span>
+        </h1>
 
+        <div
+          class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3 justify-content-center pt-3 pb-3"
+        >
+          <div class="col col-md-6">
+            <div>
+              <img
+                class="img-fluid border border-danger"
+                src="images/faq.png"
+                alt=""
+              />
+            </div>
+          </div>
 
+          <div class="col col-md-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What are the most important things I should know about
+                    riding a bike?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How can I tell if my helmet is old and I need a new one?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Beatae excepturi in illo eveniet, alias saepe? Omnis
+                    architecto distinctio commodi blanditiis beatae iure at ea?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    My bike has been in storage is it safe to ride?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa soluta ab harum sequi obcaecati neque doloremque
+                    inventore aliquid delectus reprehenderit! Explicabo
+                    necessitatibus laboriosam distinctio voluptate dolorum, hic
+                    voluptatum sed eligendi.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What rules should I follow when riding my bike?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi aspernatur vitae consectetur excepturi, maiores tenetur
+                    quae corrupti odit. Hic quis fugit eos tempore pariatur at.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ section ends-->
     </main>
 
-    <footer>
-
-    </footer>
-    
-</body>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <footer></footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
 </html>
